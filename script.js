@@ -75,7 +75,7 @@ function strip(){
   x=x.split("\n");
   var y="";
   for (var i = 0; i <x.length; i++) {
-    x[i]=x[i].replace(/\s+/g,' ').trim(); //removig extra space and empty lines
+    x[i]=x[i].replace(/\s+/g,'').trim(); //removig extra space and empty lines
     if (x[i] !== '') {
       y=y+x[i]+'\n';  //adding all the elemnts of the array to a string 
     };
